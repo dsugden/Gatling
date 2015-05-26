@@ -4,7 +4,7 @@ import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import scala.concurrent.duration._
 
-class SprayWebsockets extends Simulation {
+class AkkaHttpWebsockets extends Simulation {
 
   val httpConf = http
     .baseURL("http://54.157.17.66:9001")
